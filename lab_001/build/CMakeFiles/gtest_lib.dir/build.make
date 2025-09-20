@@ -76,27 +76,27 @@ include CMakeFiles/gtest_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gtest_lib.dir/flags.make
 
-CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o: CMakeFiles/gtest_lib.dir/flags.make
-CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o: ../src/palyndrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o -c /workspaces/Programming/labs_oop/lab_001/src/palyndrome.cpp
+CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o: CMakeFiles/gtest_lib.dir/flags.make
+CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o: ../src/palindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o -c /workspaces/Programming/labs_oop/lab_001/src/palindrome.cpp
 
-CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Programming/labs_oop/lab_001/src/palyndrome.cpp > CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.i
+CMakeFiles/gtest_lib.dir/src/palindrome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_lib.dir/src/palindrome.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Programming/labs_oop/lab_001/src/palindrome.cpp > CMakeFiles/gtest_lib.dir/src/palindrome.cpp.i
 
-CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Programming/labs_oop/lab_001/src/palyndrome.cpp -o CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.s
+CMakeFiles/gtest_lib.dir/src/palindrome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_lib.dir/src/palindrome.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Programming/labs_oop/lab_001/src/palindrome.cpp -o CMakeFiles/gtest_lib.dir/src/palindrome.cpp.s
 
 # Object files for target gtest_lib
 gtest_lib_OBJECTS = \
-"CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o"
+"CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o"
 
 # External object files for target gtest_lib
 gtest_lib_EXTERNAL_OBJECTS =
 
-libgtest_lib.a: CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o
+libgtest_lib.a: CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o
 libgtest_lib.a: CMakeFiles/gtest_lib.dir/build.make
 libgtest_lib.a: CMakeFiles/gtest_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_lib.a"

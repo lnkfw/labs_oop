@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o"
+  "CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o"
   "libgtest_lib.a"
   "libgtest_lib.pdb"
 )

@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/Programming/labs_oop/lab_001/include/palyndrome.h
+/workspaces/Programming/labs_oop/lab_001/include/palindrome.h
 string
 -
 
-/workspaces/Programming/labs_oop/lab_001/src/palyndrome.cpp
-../include/palyndrome.h
-/workspaces/Programming/labs_oop/lab_001/include/palyndrome.h
+/workspaces/Programming/labs_oop/lab_001/src/palindrome.cpp
+../include/palindrome.h
+/workspaces/Programming/labs_oop/lab_001/include/palindrome.h
+string
+-
 

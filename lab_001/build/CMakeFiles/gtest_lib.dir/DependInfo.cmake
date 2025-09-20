@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspaces/Programming/labs_oop/lab_001/src/palyndrome.cpp" "/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o"
+  "/workspaces/Programming/labs_oop/lab_001/src/palindrome.cpp" "/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

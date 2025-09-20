@@ -304,32 +304,32 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_exe.dir/build.make CMakeFiles/gtest_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/palyndrome.o: src/palyndrome.cpp.o
+src/palindrome.o: src/palindrome.cpp.o
 
-.PHONY : src/palyndrome.o
+.PHONY : src/palindrome.o
 
 # target to build an object file
-src/palyndrome.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.o
-.PHONY : src/palyndrome.cpp.o
+src/palindrome.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palindrome.cpp.o
+.PHONY : src/palindrome.cpp.o
 
-src/palyndrome.i: src/palyndrome.cpp.i
+src/palindrome.i: src/palindrome.cpp.i
 
-.PHONY : src/palyndrome.i
+.PHONY : src/palindrome.i
 
 # target to preprocess a source file
-src/palyndrome.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.i
-.PHONY : src/palyndrome.cpp.i
+src/palindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palindrome.cpp.i
+.PHONY : src/palindrome.cpp.i
 
-src/palyndrome.s: src/palyndrome.cpp.s
+src/palindrome.s: src/palindrome.cpp.s
 
-.PHONY : src/palyndrome.s
+.PHONY : src/palindrome.s
 
 # target to generate assembly for a file
-src/palyndrome.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palyndrome.cpp.s
-.PHONY : src/palyndrome.cpp.s
+src/palindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_lib.dir/build.make CMakeFiles/gtest_lib.dir/src/palindrome.cpp.s
+.PHONY : src/palindrome.cpp.s
 
 test/tests01.o: test/tests01.cpp.o
 
@@ -381,9 +381,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/palyndrome.o"
-	@echo "... src/palyndrome.i"
-	@echo "... src/palyndrome.s"
+	@echo "... src/palindrome.o"
+	@echo "... src/palindrome.i"
+	@echo "... src/palindrome.s"
 	@echo "... test/tests01.o"
 	@echo "... test/tests01.i"
 	@echo "... test/tests01.s"

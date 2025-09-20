@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/Programming/labs_oop/lab_001/include/palyndrome.h
+/workspaces/Programming/labs_oop/lab_001/include/palindrome.h
 string
 -
 
 /workspaces/Programming/labs_oop/lab_001/test/tests01.cpp
 gtest/gtest.h
 -
-../include/palyndrome.h
-/workspaces/Programming/labs_oop/lab_001/include/palyndrome.h
+../include/palindrome.h
+/workspaces/Programming/labs_oop/lab_001/include/palindrome.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 memory

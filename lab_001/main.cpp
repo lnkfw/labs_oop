@@ -1,11 +1,11 @@
 #include <iostream>
-#include "include/palyndrome.h"
+#include "include/palindrome.h"
 
 int main() {
     std::string s;
     std::cout << "Input string: ";
     std::cin >> s;
-    if (palyndrome(s)) {
+    if (palindrome(s)) {
         std::cout << "YES!" << std::endl;
     } else {
         std::cout << "NO!" << std::endl;
