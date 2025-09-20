@@ -1,21 +1,24 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/workspaces/Programming/labs_oop/lab_001/test/tests01.cpp" "/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles/tests.dir/test/tests01.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/3sem_oop/lab_001/test/tests01.cpp" "CMakeFiles/tests.dir/test/tests01.cpp.o" "gcc" "CMakeFiles/tests.dir/test/tests01.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "_deps/googletest-src/googletest/include"
+  "_deps/googletest-src/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/workspaces/3sem_oop/lab_001/build/CMakeFiles/gtest_lib.dir/DependInfo.cmake"
-  "/workspaces/3sem_oop/lab_001/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/workspaces/3sem_oop/lab_001/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/workspaces/Programming/labs_oop/lab_001/build/CMakeFiles/gtest_lib.dir/DependInfo.cmake"
+  "/workspaces/Programming/labs_oop/lab_001/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/workspaces/Programming/labs_oop/lab_001/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
